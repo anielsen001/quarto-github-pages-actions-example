@@ -43,7 +43,7 @@ mkdir -p .github/workflows
 touch .github/workflows/publish.yml
 ```
 
-and put the following into `publish.yml`
+and put the following into `publish.yml` (copied directory from [quarto docs](https://quarto.org/docs/publishing/github-pages.html#publish-actions)
 ```yaml
 on:
   workflow_dispatch:
