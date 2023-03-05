@@ -1,0 +1,11 @@
+{
+  "hash": "7672cf19a1246c180eb2b0fc2902640c",
+  "result": {
+    "markdown": "---\ntitle: \"A python example\"\nformat: html\n---\n\n## An example with python code\n\nThis is just an example with executable code.\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\nprint(\"hello quarto world!\")\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nhello quarto world!\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "python_files/figure-html"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
