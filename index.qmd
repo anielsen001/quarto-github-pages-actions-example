@@ -1,5 +1,6 @@
 ---
 title: "quarto-github-pages-actions-example"
+format: html
 ---
 
 {{< include README.md >}}

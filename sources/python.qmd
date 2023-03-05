@@ -1,3 +1,8 @@
+---
+title: "A python example"
+format: html
+---
+
 ## An example with python code
 
 This is just an example with executable code.
