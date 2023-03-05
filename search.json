@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "quarto-github-pages-actions-example",
+    "section": "",
+    "text": "This is an example project that creates a website using GitHub actions with Quarto.\n\nThe repo: https://github.com/anielsen001/quarto-github-pages-actions-example\nThe webpage: https://anielsen001.github.io/quarto-github-pages-actions-example"
+  },
+  {
+    "objectID": "index.html#create-a-quarto-project",
+    "href": "index.html#create-a-quarto-project",
+    "title": "quarto-github-pages-actions-example",
+    "section": "Create a quarto project",
+    "text": "Create a quarto project\nquarto create-project"
+  },
+  {
+    "objectID": "index.html#python-code-example",
+    "href": "index.html#python-code-example",
+    "title": "quarto-github-pages-actions-example",
+    "section": "Python code example",
+    "text": "Python code example\nAn executable python code example can be found in sources/python.qmd"
+  },
+  {
+    "objectID": "index.html#computation-freeze",
+    "href": "index.html#computation-freeze",
+    "title": "quarto-github-pages-actions-example",
+    "section": "Computation freeze",
+    "text": "Computation freeze\nThis example uses the code computation freeze directive."
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "quarto-github-pages-actions-example",
+    "section": "References",
+    "text": "References\n\nQuarto Documentation"
+  },
+  {
+    "objectID": "sources/python.html",
+    "href": "sources/python.html",
+    "title": "A python example",
+    "section": "",
+    "text": "This is just an example with executable code.\n\nprint(\"hello quarto world!\")\n\nhello quarto world!"
+  }
+]
