@@ -3,6 +3,9 @@ project:
   type: website
   output-dir: docs
 
+execute: 
+  freeze: auto
+
 website:
   # favicon: favicon.ico
   page-navigation: true
@@ -13,6 +16,8 @@ website:
     contents:
       - text: "Home"
         file: index.qmd
+      - text: "Python"
+        file: sources/python.qmd
 
 format: 
   html:
