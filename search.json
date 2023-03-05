@@ -28,6 +28,20 @@
     "text": "Computation freeze\nThis example uses the code computation freeze directive."
   },
   {
+    "objectID": "index.html#configure-the-repository-to-use-gh-pages",
+    "href": "index.html#configure-the-repository-to-use-gh-pages",
+    "title": "quarto-github-pages-actions-example",
+    "section": "Configure the repository to use gh-pages",
+    "text": "Configure the repository to use gh-pages\nThe following command step quarto publish won’t complete unless this is set up first."
+  },
+  {
+    "objectID": "index.html#manually-perform-quarto-publish",
+    "href": "index.html#manually-perform-quarto-publish",
+    "title": "quarto-github-pages-actions-example",
+    "section": "Manually perform quarto publish",
+    "text": "Manually perform quarto publish\nhttps://quarto.org/docs/publishing/github-pages.html#publish-action\nquarto publish gh-pages\nThis may take a long time to run. The documentation says that this will create a file called _publish.yml but that did not happen for me (quarto version 1.2.269).\nInstead, manually create a .github/workflows/publish.yml\nmkdir -p .github/workflows\ntouch .github/workflows/publish.yml\nand put the following into publish.yml\non:\n  workflow_dispatch:\n  push:\n    branches: main\n\nname: Quarto Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    permissions:\n      contents: write\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v3\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n\n      - name: Render and Publish\n        uses: quarto-dev/quarto-actions/publish@v2\n        with:\n          target: gh-pages\n        env:\n          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}"
+  },
+  {
     "objectID": "index.html#references",
     "href": "index.html#references",
     "title": "quarto-github-pages-actions-example",

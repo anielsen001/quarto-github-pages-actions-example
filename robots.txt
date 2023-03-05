@@ -1,0 +1,1 @@
+Sitemap: https://github.com/anielsen001/quarto-github-pages-actions-example/sitemap.xml
