@@ -1,3 +1,8 @@
+# for quarto
 /.quarto/
-# /public/   # for gitlab
-/docs/       # for github
+
+# for gitlab
+# /public/
+
+# for github
+/docs/      
