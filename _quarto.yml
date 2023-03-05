@@ -1,5 +1,32 @@
 project:
   title: "quarto-github-pages-actions-example"
+  type: website
+  output-dir: docs
 
+website:
+  # favicon: favicon.ico
+  page-navigation: true
+  navbar:
+    title: "Quarto GitHub Pages Actions Example"
+    search: true
+  sidebar:
+    contents:
+      - text: "Home"
+        file: index.qmd
 
+format: 
+  html:
+    theme: cosmo
+
+  revealjs:
+    height: 900
+    width: 1600
+    # logo: "mylogo.png"
+    slide-number: true
+    scrollable: false
+    transition-speed: fast
+    chalkboard: true
+    link-external-newwindow: true
+    theme: cosmo
+    #css: my.css
 
