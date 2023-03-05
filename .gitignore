@@ -1,2 +1,3 @@
 /.quarto/
 # /public/   # for gitlab
+/docs/       # for github
